@@ -82,7 +82,7 @@ h3 {
 			String joindate = request.getParameter("joindate");
 			String grade = request.getParameter("grade");
 			String city = request.getParameter("city");
-			String sql="insert into member_tbl_02(custno,custname,phone,address,joindate,grade,city)values(?, ?, ?,?,?,?)";
+			String sql="insert into member_tbl_02(custno,custname,phone,address,joindate,grade,city)values(seq_custno.nextval,?, ?, ?,?,?,?)";
 			Connection con = Connector.getConnection();
 			PreparedStatement ps = con.prepareStatement(sql);
 			ps.setString(1,custname);

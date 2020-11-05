@@ -8,8 +8,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-</head>
-<body>
+
 	<style>
 * {
 	margin: auto 0;
@@ -46,18 +45,20 @@ h3{
 	text-align : center;
 }
 </style>
+</head>
+<body>
 	<header> 쇼핑몰 회원관리 ver1.0 </header>
 
 	<nav>
 		<ul>
-			<li><a href="<%=rPath%>/member-insert.jsp">회원등록</li>
-			</a>
-			<li><a href="<%=rPath%>/member-list.jsp">회원목록조회/수정</li>
-			</a>
-			<li><a href="<%=rPath%>/member-sales.jsp">회원매출조회</li>
-			</a>
-			<li><a href="<%=rPath%>/">홈으로</li>
-			</a>
+			<li><a href="<%=rPath%>/member-insert.jsp">회원등록</a></li>
+			
+			<li><a href="<%=rPath%>/member-list.jsp">회원목록조회/수정</a></li>
+			
+			<li><a href="<%=rPath%>/member-sales.jsp">회원매출조회	</a></li>
+			
+			<li><a href="<%=rPath%>/">홈으로</a></li>
+			
 		</ul>
 	</nav>
 	<section>

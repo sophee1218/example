@@ -64,7 +64,6 @@ h3 {
 			<li><a href="<%=rPath%>/member-sales.jsp">회원매출조회</a></li>
 			
 			<li><a href="<%=rPath%>/">홈으로</a></li>
-			</a>
 		</ul>
 	</nav>
 	<section>
